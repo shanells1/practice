@@ -1,0 +1,18 @@
+.container {
+    background-color: blanchedalmond;
+    left: 50px;
+    top: 50px;
+    position: relative;
+}
+div {
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    margin-bottom: 30px;
+}
+.box {
+    background-color: darkblue;
+    left: 50px;
+    top: 50px;
+    position: sticky;
+}
