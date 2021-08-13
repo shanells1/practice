@@ -1,16 +1,16 @@
 body{
-    background-color: #535458	
+    background-color: #35363a	
 }
 
 header {
     display: flex;
     justify-content: flex-end;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 
 .main {
-    margin-top: 20px;
-    padding-right: 20px;
+    margin-top: 10px;
+    padding-right: 9px;
     display: flex;  
     /* justify-content: space-around; */
     align-items: baseline;
@@ -57,7 +57,7 @@ article {
 }
 
 article>h1{
-    color: seashell;
+    color: white;
     font-size: 80px;
     text-align: center;
 }
@@ -101,15 +101,20 @@ article>h1{
 
 }
 
-.footeritemadd {
+.footeritemadd {    
     display: flex;
 }
-
+}
+    
 .footeritem {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100px;
     width: 100px;
-    background: chartreuse;
+    /* background: chartreuse; */
+}
+.footeritem:hover {
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+
 }
 
 .footeritem2add {
@@ -117,9 +122,25 @@ article>h1{
 }
 
 .footeritem2 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100px;
     width: 100px;
-    background: chocolate;
+    /* background: chocolate; */
 }
-    
+.footeritem2:hover {
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+}
+.footeritem button, .footeritem2 button {
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footername {
+    color: white;
+}
