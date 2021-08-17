@@ -5,58 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html practice</title>
-    <link rel="stylesheet" href="csspractice.css">
+    <!-- <link rel="stylesheet" href="csspractice.css"> -->
 </head>
-<body>
-    <!-- <input type="button" value="night" onclick="
-      document.querySelector('body').style.backgroundColor='black'; 
-      document.querySelector('body').style.color='white'; ">
-    <input type="button" value="day" onclick="
-      document.querySelector('body').style.backgroundColor='white';
-      document.querySelector('body').style.color='black'; "> -->
-      <input type="button" value="night" onclick="
-      let target = document.querySelector('body');
-      if(this.value ==='night') {
-      target.style.backgroundColor='black';
-      target.style.color='white'; 
-      this.value='day'; 
-    } else {
-      target.style.backgroundColor='white';
-      target.style.color='black'; 
-      this.value='night'; 
-    }">
-
-    <h1>Starcraft</h1>
-    
-    <div class="grid">    
-      <ul class="tribe">
-        <li><a href="zerg.html" class="saw">Zerg</a></li>
-        <li><a href="Terran.html"class="saw" id="active">Terran</a></li>
-        <li><a href="protoss.html">Protoss</a></li>
-      </ul>
-        <div class="article">
-            <h2>StarCraft</h2>
-            <p>블리자드 엔터테인먼트에서 제작한 RTS 게임으로, 스타크래프트 오리지널은 1998년 3월 31일에 출시하였고, 확장팩인 스타크래프트: 브루드 워는 1998년 11월 30일에 
-                출시하였다. 공식 지원 언어는 영어, 프랑스어, 독일어, 이탈리아어, 유럽 스페인어 5가지이다. # 다른 게임들처럼 원래 유료였지만, 2017년 3월 26일에 
-                스타크래프트: 리마스터와 함께 무료화를 발표하였고, 2017년 4월 19일에 1.18 패치를 내놓으면서 무료로 전환하였다. 2018년 3월 31일 자로 발매 
-                20주년을 맞았다. 여담으로 2018년 현재 블리자드 FTP에서 데모버전 클라이언트 설치파일 링크도 여전히 살아있다.</p>
-                <p>게임 컨셉 면에 SF풍 미니어처 게임 Warhammer 40,000와 비슷한 부분이 많다고 지적받기도 했는데, 블리자드는 애초에 Geek들이 모여 만든 회사라 
-                    게임에 여러 가지 서브 컬처로부터 따온 인용을 집어넣는 것을 즐겼고, 실제로 블리자드에서 매직 더 개더링 같은 게임과 함께 워해머를 플레이하는 
-                    사람들도 있었기 때문에 디자인의 영향을 받은 것으로 보인다. 워해머 시리즈의 제작사인 GW와 블리자드 사이는 나쁘지 않은 편으로, 블리자드 소속 
-                    모델러의 말에 따르면 디자인 면에서도 서로 교류하는 바가 있다는 듯. 또한 GW 쪽에서는 우리는 스타크래프트와 워크래프트가 있기 때문에 워해머의 
-                    RTS화에 나섰다라고도 했다. 현재는 기원이 어느정도 확립된 레이브너와 정신체, 어느정도 모티브를 따온 것으로 추정되는 저그 정도를 제외하면 
-                    서로가 누가 원전인지 모를 정도로 서로간의 좋은 점은 흡수하여 변화하는 모습을 보이고 있다.</p>
-        </div>
-    </div>           
-    <input type="button" value="night" onclick="
+<body>        
+  <input type="button" value="night" onclick="
     if(this.value ==='night') {
     document.querySelector('body').style.backgroundColor='black';
     document.querySelector('body').style.color='white'; 
     this.value='day'; 
-  } else {
+    } else {
     document.querySelector('body').style.backgroundColor='white';
     document.querySelector('body').style.color='black'; 
-    this.value='night'; 
-  }">         
+    this.value='night'; }">         
+ 
+ <h1>array</h1>
+    <script>
+      let coworkers = ['hamin', 'jihyen', 'youngjae' , 'dongwoo']
+      document.write(coworkers[0]);
+      document.write(coworkers[1]);
+    </script>
+  <h1>loop</h1>  
+    <!-- <script>
+      let i = 0;
+      while (i < 3) {
+        document.write('<li>1</li>');
+        i = i + 1;
+      }
+    </script>  -->
+    <h1>coworkers</h1>
+    <script>
+      let i = 0;
+      while(i < coworkers.length){
+        document.write('<li>'+coworkers[i]+'</li>');
+        i = i + 1;
+      }
+    </script>
 </body>
 </html>
