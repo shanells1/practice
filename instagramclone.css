@@ -1,0 +1,195 @@
+body {
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+.ig_main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    align-items: flex-start;
+}
+.sectionleft {
+    margin-right: 30px;
+}
+.ig_img {
+    width: 227px;
+    height: 618px;
+}
+.sectionright {
+    text-align: center;
+    margin-right: 30px;
+
+}
+.sr_first {
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    width: 348px;
+    height: 378px;
+    align-items: center;
+    background-color: #ffffff;
+}   
+.srf_head {
+    font-family: 'Style Script', cursive;
+    font-size: 55px;
+    height: 70px;
+    margin: 0px;
+}
+.srf_head h1 {
+    margin: 7px;
+    font-size: 51px;
+}
+
+.sr_second {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex:1;
+    margin: 50px;
+}
+.srf_ifm {
+    width: 258px;
+    height: 36px;
+    border:0.5px solid #dbdbdb;
+    box-shadow: none;
+    padding-left: 9px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: #fafafa;
+}
+.login_bt {
+    pointer-events: none;
+    cursor: not-allowed;
+    opacity: 0.3;
+    filter: alpha(opacity=65);
+    box-shadow: none;
+    border:none;
+    background-color: #0095f6;
+    color: white;
+    width: 269px;
+    height: 33px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.sr_fourth {
+    display: flex;
+    justify-content: center;
+}
+.srf_line {
+    background-color: #dbdbdb;
+    height: 1px;
+    flex:1;
+    top:0.5em;
+}
+.srf_text {
+    margin: 0 20px;
+    font-size: 13px;
+    color: #929292;
+}
+.fb_login {
+    cursor: pointer;
+}
+.fb_icon {
+    color:#375085 ;
+    margin-right: 0.3em;
+    font-size: 1.1em;
+}
+.fb_text {
+    color:#375085 ;
+    font-size: 0.9em;
+}
+.pw_forget {
+    color:#375085;
+    font-size: 0.7em;
+    cursor: pointer;
+}
+.sr_third {
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;   
+    font-size: 14px;
+}
+.sign_up {
+    color: #0095f6;
+    cursor: pointer;
+    padding-left: 3px;
+} 
+.app_dl {
+    margin: 20px 10px;
+    font-size: 14px;
+}
+.dl_bt {
+    display: flex;
+    justify-content: center;
+}
+.apple_dl {
+    background-color: black;
+    color: white;
+    width: 136px;
+    height: 40px;
+    margin-right: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.app_icon {
+    color: white;
+    font-size: 30px;
+}
+.app_text {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+.google_dl {    
+    background-color: black;
+    color: white;
+    width: 136px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 5px;     
+    display: flex;
+    align-items: center;
+    justify-content: center;        
+    padding-left: 7px;
+    cursor: pointer;
+}
+.google_icon {
+    color : #03cdff;
+    font-size: 30px;
+}
+.google_text {
+    font-size: 13px;
+    display: flex;
+}
+.footercontainer {
+    margin-top: 35px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12.8px;
+    border-width: 200;
+    color: #959595;
+}
+.footeritem {
+    width: 873px;
+    height: 21px;
+    display: flex;
+    justify-content: space-around;
+}
+@media(max-width: 875px){
+    .ig_img{
+        width: 0px;
+        height: 0px;
+    }
+
+}
