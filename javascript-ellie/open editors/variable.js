@@ -6,8 +6,8 @@
 // name = 'hello';
 // console.log(name);
 
-// blcok scope, global scope
-// global scrope는 중괄호 안에 선언하는 것으로 설정한 값이 중괄호 안에서만 적용이 되고 global scope는 중괄호 밖에 선언하는 방식으로 밖에다 선언을 하면 중괄호 안이든 밖이든
+// block scope, global scope
+// block scrope는 중괄호 안에 선언하는 것으로 설정한 값이 중괄호 안에서만 적용이 되고 global scope는 중괄호 밖에 선언하는 방식으로 밖에다 선언을 하면 중괄호 안이든 밖이든
 // 전부 적용이 된다. globalscope로 선언한 변수들은 어플리케이션이 실행되는 순간부터 메모리를 사용하기 때문에 가능한 적게 사용하는 것이 좋다.
 
 let globalname = 'global name'
