@@ -1,14 +1,27 @@
+body {
+    margin: 0;
+    background-color: #fafafa;
+}
 .header_nv {
     display: flex;
     justify-content: center;
-    border-bottom: 1px solid #dbdbdb;
+    flex-basis: 0;
+    border-bottom: 0.5px solid #dbdbdb;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background-color: #ffffff;
 }
 .header_nv2 {
+    box-sizing: border-box;
     display: flex;
-    width: 935px;
-    height: 54px;
-    justify-content: space-around;
+    flex: 0.8;
+    flex-basis: 0;
+    justify-content: space-between;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 975px;
+    height: 54px;
 }
 .header_text {
     font-size: 30px;
@@ -23,26 +36,110 @@
     text-align: center;
     color: #fafafa;
     border-radius: 3px;
-    flex: 0.6;
 }
 .headercontainer {
-    display: flex;
     flex: 1;
-}
-.aa {
     display: flex;
-    flex: 1 0 0;
+    flex-basis: 0;
+}
+.hdit_left {
+    flex: 0.3;
 }
 .headeritems {
+    flex:0.7;
     display: flex;
-    justify-content: space-between;
     padding-left: 30px;
-}
-/* .headeritem {
-    display: flex;
-
-} */
-.icons {
     font-size: 23px;
+} 
+.headeritem {
+    margin-left: 23px;  
+}
+.section_area {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.first_article {
+padding-right: 30px;
+}
+.ig_feed {
+    display: flex;
+    border: 0.5px solid #dbdbdb;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 614px;
+    height: 60px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.ig_user {
+    display: flex;
+    align-items: center;
+}
+.user_text {
+    margin-left: 20px;
+    font-weight: bold;
+}
+.user_img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    border: 0.3px solid #dbdbdb;
+}
+.ig_img {
+    width: 614px;
+    height: 767.5px;
+}
+.feed_img {
+    width: 614px;
+    height: 767.5px;
+}
+.asid_container {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 0;
+    width: 293px;
+    box-sizing: border-box;
+}
+.asid_main {
+    margin: 18px 0px 15px;
+}
+.aside_mainitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.aside_userall {    
+    display: flex;
+    align-items: center;
+}
+.user_name {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+.main_transform {
+    font-size: 12px;
+    color: #0095f6;
+}
+.asid_items {
+}
+.aside_item {
+    display: flex;
+}
+.aside_icon {
+    font-size: 56px;
+    color: #dbdbdb;
+    margin-right: 15px;
+}
+.aside_img {
+    width: 32px;
+    height: 32px;
+    border-radius: 100px;
+    border: 0.3px solid #dbdbdb;
+}
+.asdie_address {
 
 }
